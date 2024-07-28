@@ -1,0 +1,45 @@
+ul.listingCategories{
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
+    flex-wrap: wrap;
+}
+
+.listingCategories {
+    li
+    {
+    list-style: none;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: #2f404dba;
+}
+
+}
+
+.categoryListingHomePage{
+    h3{
+        text-align: center;
+        margin: 40px 20px;
+    }
+}
+
+.middleContainer{
+    height: 300px;
+    background-color: #e5ebf078;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div{
+        width: 80%;
+        font-size: larger;
+        font-weight: 100;
+    }
+}

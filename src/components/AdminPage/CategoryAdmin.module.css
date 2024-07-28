@@ -1,0 +1,28 @@
+.adminOuterContainer{
+  
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  form  {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.adminOuterContainer button{
+    margin-top: 20px;
+    border: none;
+    border-radius: 40px;
+    padding: 5px 10px;
+    border: 2px solid #b8b4b4;
+    color: #8c8888;
+}
+
+input{
+    border: 2px solid #c7c0c0;
+    border-radius: 6px;
+
+}

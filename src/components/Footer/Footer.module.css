@@ -1,0 +1,159 @@
+.listingContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.furnitureListing,.aboutUsListing,.helpListing{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    padding: 0 10px;
+    ul{
+        list-style: none;
+        padding: 0;
+        li{
+            padding: 5px 0;
+        }
+    }
+}
+
+
+.furnitureContainer{
+    div{
+    display: flex;
+    flex-direction: row;
+    }
+
+    h3,span{
+        padding: 5px 0;
+        margin: 0;
+    }
+}
+
+
+
+.categoriesTableContainer 
+{
+    background: #f5f5f5;
+    padding: 27px 40px;
+    margin: 30px;
+    table {
+    margin-bottom: 0;
+}}
+
+
+.categoriesTableContainer table td:first-child {
+    width: 25%;
+    padding-right: 19px;
+}
+
+.categoriesTableContainer table td:last-child {
+    width: 75%;
+}
+
+a:not(:hover) {
+    color: #4d4d4d;
+}
+a, a:visited, a span {
+    color: #2e7295;
+    text-decoration: none;
+    position: relative;
+    transition: color .1s linear;
+}
+
+
+hr{
+   color: #f5f5f5;
+   background-color: #f5f5f5;
+}
+
+.subscribeInput { 
+    min-width:340px;
+    width: 404px;
+    position: relative;
+    input{
+    padding: 7px 61px 7px 21px;
+
+    min-height: auto;
+    border-radius: 40px;
+    background-color: #f8f8f8;
+    border-color: #f8f8f8;
+    border: 1px solid #e2e2e2;
+    min-width: 320px;
+
+   
+}
+input::placeholder{
+
+    font-size: 12px;
+}
+button{
+    height: 40px;
+    position: absolute;
+    right: 64px;
+    padding: 7px 10px;
+    border-radius: 40px;
+    background: #0093dd;
+    color: #fff;
+    border-color: #0093dd;
+    border: 1px solid;
+}
+
+
+
+
+}
+
+
+.newsletternSubscription{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutDescription{
+
+    padding: 0 10px;
+
+}
+
+.breakLine{
+    border-top: 1px solid #9e9e9e8c;
+    margin: 40px 0;
+}
+
+.newsletternSubscription h6{
+    margin: 30px 0;
+    margin-top: 10px;
+}
+
+table a{
+    text-decoration: none;
+}
+
+td p{
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+.aboutDescription {
+    h4{
+    font-weight: 300;
+    }
+    
+    h4+p{
+    font-weight: 200;
+}}
+
+.listingContainer {h3{
+    font-weight: 400;
+    font-size:larger;
+}
+ul{
+    font-weight: 200;
+}
+
+}

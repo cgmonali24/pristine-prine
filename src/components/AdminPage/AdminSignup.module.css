@@ -1,0 +1,160 @@
+.auth {
+    margin: 2rem auto;
+   width: 290px;
+    max-width: 25rem;
+    background-color: #ffffff;
+    border: 0.6px solid rgb(99, 93, 93);
+    padding: 1rem;
+    text-align: center;
+   
+  }
+  
+  .auth h1 {
+    text-align: center;
+    color: #3b4b4f;
+    font-weight: 400;
+  }
+  
+
+  /* on focus the input field, the label should move up and reduce in size implementation  start*/
+  
+  .control {
+    position: relative;
+    margin-bottom: 0.5rem;
+  }
+  
+  .control label {
+    bottom: 31px;
+    display: block;
+    font-size: 15px;
+    /* transition: all 2s; */
+    margin-bottom: 0.5rem;
+    position: absolute;
+    top: 33%;
+    left: 10px;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+    color: #999;
+
+  }
+  input::placeholder{
+    font-size: 15px;
+    bottom: 31px;
+    display: block;
+    font-size: 15px;
+    margin-bottom: 0.5rem;
+    position: absolute;
+    top: 33%;
+    left: 10px;
+  }
+  
+  input:focus + label,input:not(:placeholder-shown) + label  {
+    top: -5px;
+
+    font-size: 12px;
+
+}
+
+  .control input {
+    font: inherit;
+
+    color: #5f5963;
+    border: 0.6px solid rgb(195, 188, 188);
+    width: 95%;
+    text-align: left;
+    padding: 0.25rem;
+    height: 30px;
+    margin: 7px 0;
+    border-radius: 4px;
+    cursor: text;
+  }
+
+ /* on focus the input field, the label should move up and reduce in size implementation  end*/
+  
+  
+ .actions {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+
+
+  .actions button {
+    cursor: pointer;
+    font: inherit;
+    color: white;
+    background-color: #3f91ee;
+    border: 1px solid #3f91ee;
+    border-radius: 20px;
+    padding: 0.5rem 2.5rem;
+
+    width: 100%;
+  }
+  
+  .actions button:hover {
+    background-color:#367ac8;
+    border-color: #3f91ee;
+  }
+  
+  
+  .actions .toggle {
+    margin-top: 1rem;
+    background-color: transparent;
+    color: #9f5ccc;
+    border: none;
+    padding: 0.15rem 1.5rem;
+  }
+  
+  .actions .toggle:hover {
+    background-color: transparent;
+    color: #ae82cc;
+  }
+
+  .error{
+    color: red;
+  }
+
+  #password::placeholder,
+#confirm-password::placeholder {
+  color: #999; /* Set the color of the placeholder text */
+  font-style: italic; /* Make it italic, for example */
+  text-align: center;
+}
+
+.account{
+    background-color: white;
+    border: 1px solid rgb(223, 221, 221);
+    margin: 0 auto;
+    width: 324px;
+     max-width: 25rem;
+    padding: 1rem;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+}
+
+.account:hover{
+    border: 1px solid rgb(146 170 142);
+    background-color: #eff8ee;
+     cursor: pointer;
+}
+.account div:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+.forgotpassword{
+    text-decoration: underline;
+    border: none;
+    background-color: white;
+    color: blue;
+}
+.forgotpassword:hover{
+    cursor: pointer;
+}
+

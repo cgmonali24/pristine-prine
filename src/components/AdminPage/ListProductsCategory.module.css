@@ -1,0 +1,51 @@
+.categoryListAdminPage{
+    display: flex;
+    flex-direction: row;    
+    margin: 10px;
+    button{
+        margin: 0 20px;
+        /* height: 25px; */
+    }
+
+}
+
+.categoryListAdminPage p{
+    margin: 0 20px;
+    width: 300px;
+}
+
+.productItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin: 10px;
+}
+
+.createProductAdminContainer{
+    display: flex;
+flex-direction: column;
+    align-items: center;
+}
+
+.deleteProductButton{
+    /* margin-top: 20px; */
+    border: none;
+    border-radius: 40px;
+    /* padding: 5px 10px; */
+    border: 2px solid #b8b4b4;
+    color: #8c8888;
+    padding: 4px 0;
+    width: 100px;
+    height: 35px;
+    border: 1px solid #F44336;
+    background-color: rgb(244 209 207);
+    border-radius: 40px;
+    color: #e61717;
+    padding: 5px 10px;
+}
+
+span{
+    width: 100px;
+    margin: 0 20px;
+}

@@ -1,0 +1,14 @@
+.cartList{
+    display: flex;
+    flex-direction: row;
+    p{
+        margin: 0 10px;
+    }
+}
+
+.cartItemAdminContainer{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}

@@ -1,0 +1,36 @@
+.productAdminContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.productAdminContainer form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    width: fit-content;
+    align-items: center;
+}
+
+
+.productAdminContainer form input{
+    margin: 10px 0;
+}
+
+
+
+
+.productAdminContainer form select{
+    width: -webkit-fill-available;
+    margin: 10px 0;
+}
+
+.addProductButton{
+    width: -webkit-fill-available;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 10px;
+    border: 2px solid #b8b4b4;
+    color: #8c8888;
+}

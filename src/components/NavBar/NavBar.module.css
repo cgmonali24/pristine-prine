@@ -1,0 +1,99 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@media screen and (min-width: 768px){
+    .navElement{
+        display: none!important;
+    }
+    }
+
+
+
+
+.navcontainer{
+    box-sizing: border-box;
+
+    width: 100%;
+    padding: 30px;
+}
+
+
+
+.navBar{
+    width: 100%;
+}
+
+.navMenu{
+    text-decoration: none;
+    list-style: none;
+    text-align: right;  /* moves ul to elements i.e li to left end */
+}
+.navMenu li{
+    padding: 0 10px;
+    display: inline-block;
+    
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* li a::before{
+        content: "";
+    display: block;
+    width: 1px;
+    height: 11px;
+    background: #000;
+    position: absolute;
+    top: 14px;
+    left: 0;
+  
+ 
+} */
+
+a:hover,a:active{
+    color: rgb(58, 121, 198);
+
+}
+
+.navSearch input{
+    padding: 7px 61px 7px 21px;
+
+    min-height: auto;
+    border-radius: 40px;
+    background-color: #f8f8f8;
+    border-color: #f8f8f8;
+    border: 1px solid #e2e2e2;
+    min-width: 320px;
+}
+
+
+.navElements{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.navOtherElements{
+    display: flex;
+    justify-content: space-between;
+    div{
+        padding: 0 10px;
+    }
+}
+
+.navSubTitles{
+    
+    padding: 0 10px;
+    ul{display: flex;
+    justify-content: space-between;
+        list-style: none;
+    }
+}
+
